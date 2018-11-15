@@ -8,7 +8,7 @@ def square_array(array)
   new_array
 end
 
-# Using .collect
+# Using .collect. .collect iterates through each element and returns a new array, but does not modify the original array
 # def square_array(array)
 #  array.collect { |i|
 #    i ** 2 }
